@@ -8,7 +8,7 @@ class Detector:
         # Load the training image
         image1 = cv2.imread('./images/face.jpeg')
 
-        image2 = cv.cvtColor(numpy.array(imName), cv2.COLOR_BGR2RGB)
+        image2 = cv2.cvtColor(numpy.array(imName), cv2.COLOR_BGR2RGB)
         # Convert the training image to RGB
         training_image = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
 
