@@ -1,4 +1,4 @@
-from face-detect import Detector
+from FaceDetector import Detector
 import io
 
 from flask import Flask, render_template, request
