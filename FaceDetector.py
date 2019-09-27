@@ -4,10 +4,11 @@ import numpy
 
 class Detector:
 
-    def face_detect(self,image2):
+    def face_detect(self,imName):
         # Load the training image
         image1 = cv2.imread('./images/face.jpeg')
 
+        image2 = cv.cvtColor(numpy.array(imName), cv2.COLOR_BGR2RGB)
         # Convert the training image to RGB
         training_image = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
 
