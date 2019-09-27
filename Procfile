@@ -1,1 +1,1 @@
-web: gunicorn one-shot-face-detect:app
+web: gunicorn app:app
